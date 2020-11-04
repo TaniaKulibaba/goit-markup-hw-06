@@ -438,8 +438,10 @@ img {
       rgba(47, 48, 58, 0.4)
     ),
     url('../images/shapka.jpg');
-  width: 1600px;
+  width: 100%;
   height: 600px;
+  background-position: center;
+  background-size: cover;
   background-repeat: no-repeat;
   margin: auto;
   text-align: center;
@@ -558,7 +560,7 @@ img {
 
 /* ================ НАША КОМАНДА ================ */
 .team {
-  width: 1600px;
+  width: 100%;
   height: 708px;
   background-color: var(--main-calm-color);
   margin: auto;
@@ -689,7 +691,7 @@ img {
 
 /* ===================== FOOTER ===================== */
 .section-footer {
-  width: 1600px;
+  width: 100%;
   height: 252px;
   margin: auto;
   background-color: #2f303a;
